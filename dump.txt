@@ -1,16 +1,4 @@
-Types of Bonds<br>
-Ionic Bond<br>
-Bond formed by ions where the one with more valence electrons attract the one with less valence electrons<br>
-1A pairs with 7A<br>
-2A pairs with 6A<br>
-3A pairs with 5A<br><br>
 
-Covalent Bond<br>
-Bond formed by sharing electrons<br>
-A line indicates two electrons are shared<br><br>
-
-Metallic Bond<br>
-Bond formed when positive ions are glued together by electrons<br><br>
 
 metals<br>
 -conductors<br>
