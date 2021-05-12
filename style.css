@@ -125,10 +125,17 @@ nav a:hover{
 	height: 630px;
 }
 
+.back2 {
+	background-color: white;
+	width: 100%
+	margin: -15px;
+	height: 630px;
+}
+
 .column {
 	float: left;
-	margin: 20px;
 	width: 45%;
+	padding-left: 3em;
 }
 
 .row:after {
@@ -166,7 +173,7 @@ footer {
 	width: 100%;
 	height:100px;
 	background-color: #c5d5c5;
-	margin: 0 auto;
+	margin-top:200px;
 	position: absolute;
 	left: 0;
 	right: 0;
@@ -195,6 +202,68 @@ img {
 	border-radius: 15px;
 }
 
+table {
+	table-layout: fixed;
+	border-radius: 5px;
+}
+
+.nonmetals {
+	background-color: #E5EFDF;
+}
+.alkalimetals {
+	background-color: #F3F1E3;
+}
+
+.alkalinearths {
+	background-color: #E3E0CC;
+}
+
+.transitionmetals {
+	background-color: #F0F0F0;
+}
+
+.basicmetals {
+	background-color: #C5D5C5;
+}
+
+.metalloids {
+	background-color: #9FA9A3;
+}
+
+.halogens {
+	background-color: #DEEEE6;
+}
+
+.noblegases {
+	background-color: #C9DFD7;
+}
+
+.lanthanides {
+	background-color: #BCC8A9;
+}
+.actinides {
+	background-color: #E6F1D4;
+}
+#lanthanide {
+	margin-top: 9px;
+	margin-left: 40px;
+	display: none;
+	position: absolute;
+
+}
+
+#actinide {
+	margin-top: 75px;
+	margin-left: 40px;
+	display: none;
+	position: absolute;
+}
+
+button {
+	padding: 5px;
+	margin: 0px;
+	border-radius: 5px;
+}
 
 
 
