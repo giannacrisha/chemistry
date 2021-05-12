@@ -204,7 +204,7 @@ img {
 
 table {
 	table-layout: fixed;
-	border-radius: 5px;
+	border-radius: 10px;
 }
 
 .nonmetals {
@@ -260,9 +260,10 @@ table {
 }
 
 button {
-	padding: 5px;
+	padding: 5px 7px 5px 7px;
 	margin: 0px;
 	border-radius: 5px;
+	align-self: center;
 }
 
 
