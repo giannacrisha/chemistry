@@ -1,6 +1,7 @@
 body {
 	background-color: white;
 	font-family: helvetica;
+	color: gray;
 }
 
 a {
@@ -8,11 +9,11 @@ a {
 }
 
 #logo {
-	width: 100px;
+	width: 130px;
 	float: left;
-	padding-top: 50px;
-	padding-bottom: 20px;
+	padding-top: 65px;
 	padding-right: 5px;
+	padding-left: 20px;
 }
 
 #chemistry {
@@ -21,13 +22,15 @@ a {
 	font-weight: bold;
 	float: left;
 	font-size: 40px;
-	padding-top: 45px;
+	padding-top: 70px;
 }
 
+
 #devname {
-	padding-top: 95px;
+	padding-top: 120px;
 	color: #c5d5c5;
 	letter-spacing: 1px;
+	padding-bottom: 10px;
 }
 
 #devlink {
@@ -38,6 +41,25 @@ a {
 
 #devlink:hover {
 	color: #9fa9a3;
+}
+
+#socmed {
+	margin-top: -120px;
+	text-align: right;
+	padding-right: 20px;
+}
+
+#socmed a {
+	padding: 20px;
+	font-size: 20px;
+}
+
+#socmed img {
+	width: 100px;
+}
+
+#twitter {
+	text-align: right;
 }
 
 nav {
@@ -64,11 +86,21 @@ nav a {
 	line-height: 50px;
 	padding: 13px;
 	border-radius: 20px;
+	text-shadow:
+    -1px -1px 0 #9fa9a3,
+    1px -1px 0 #9fa9a3,
+    -1px 1px 0 #9fa9a3,
+    1px 1px 0 #9fa9a3;
 }
 
 nav a.active {
-	background-color: #e3e0cc;
-	text-shadow: 1px 1px #9fa9a3;
+	background-color: #F3F1E4;
+	color: white;
+	text-shadow:
+    -1px -1px 0 #9fa9a3,
+    1px -1px 0 #9fa9a3,
+    -1px 1px 0 #9fa9a3,
+    1px 1px 0 #9fa9a3;  
 }
 
 nav a:hover{
@@ -79,15 +111,17 @@ nav a:hover{
 	margin-top: 20px;
 }
 
+.back {
+	background-color: #F3F1E4;
+	width: 100%
+	margin: -15px;
+
+}
+
 .column {
 	float: left;
-	width: 32%;
-	background-color: #e3e0cc;
-	border: 1px #e3e0cc;
-	border-radius: 12px;
-	margin: 6px;
-	margin-left: 11px;
-	height: 430px;
+	margin: 20px;
+	width: 45%;
 }
 
 .row:after {
@@ -98,31 +132,27 @@ nav a:hover{
 
 .row {
 	align-items: center;
+	margin-left: -15px;
+	margin-right: -15px;
 }
 
 
-#bondtypes {
+h2 {
+	font-size: 30px;
 	text-align: center;
 	color: #9fa9a3;
-	text-align: center;
-}
-
-.bond {
-	padding-left: 1em;
-}
-
-.definition {
-	padding-left: 3em;
-
+	letter-spacing: 1px;
+	font-weight: bold; 
 }
 
 h3 {
-	color:#c5d5c5;
-	text-shadow:
-    -1px -1px 0 #000,
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 0 #000; 
+	text-indent: 3em;
+	color: #c5d5c5;
+	text-shadow: 1px 1px 0 #9fa9a3;
+}
+
+p {
+	padding-left: 6em;
 }
 
 footer {
@@ -147,17 +177,20 @@ footer {
 }
 
 #gitlink:hover {
-	color: #9fa9a3;
+	color: #F3F1E4;
     text-shadow:
-    -1px -1px 0 #000,
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 0 #000;  
+    -1px -1px 0 #9fa9a3,
+    1px -1px 0 #9fa9a3,
+    -1px 1px 0 #9fa9a3,
+    1px 1px 0 #9fa9a3;  
 }
 
 img {
 	border-radius: 15px;
 }
+
+
+
 
 
 

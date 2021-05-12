@@ -2,42 +2,27 @@
 
 still working on this website lol
 
-to do:
-directory
-periodic table html
-introductory chemistry
-general chemistry
-organic chemistry
-iorganic chemistry
-analytical chemistry
-biochemistry
+to do:<br>
+directory<br>
+periodic table html<br>
+introductory chemistry<br>
+general chemistry<br>
+organic chemistry<br>
+iorganic chemistry<br>
+analytical chemistry<br>
+biochemistry<br>
 resources
 
+focus on:<br>
+-bond lengths<br>
+-abundances and masses<br>
+-empirical formula<br>
+-theoretical yield<br>
+-azimuthal quantum numbers<br>
+-faradays<br>
+
 <!-- 
-MICSP.HTML
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Chemistry</title>
-	<link rel="stylesheet" href="style.css">
-</head>
-<body>
-	<a href="index.html">
-		<h1 id="Chemistry">
-		CHEMISTRY
-		</h1>
-	</a><br>
-	<nav>
-		<a href="asp.html">Atomic structure and properties</a>
-		<a class="active" href="micsp.html">Molecular and ionic compound structure and properties</a>
-		<a href="ifp.html">Intermolecular forces and properties</a>
-		<a href="reactions.html">Chemical reactions</a>
-		<a href="kinetics.html">Kinetics</a>
-		<a href="thermo.html">Thermodynamics</a>
-		<a href="equi.html">Equilibrium</a>
-	</nav>
-	<br><br>
-	<div class="row">
+<div class="row">
 		<div class="column">
 			<h2 id="bondtypes">Types of Bonds</h2>
 			<h3 class="bond" id="ionic">Ionic Bond</h3>
@@ -152,11 +137,4 @@ MICSP.HTML
 			</p>
 		</div>
 	</div>
-		<footer>
-			<center>
-			Made by<br><a id="gitlink" href="https://github.com/giannacrisha">Gianna Saludo</a>
-			</center>
-		</footer>
-	</div>
-</body>
-</html> -->
+ -->
