@@ -16,7 +16,6 @@ resources
 focus on:<br>
 -bond lengths<br>
 -abundances and masses<br>
--empirical formula<br>
 -theoretical yield<br>
 -azimuthal quantum numbers<br>
 -faradays<br>
