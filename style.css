@@ -206,11 +206,21 @@ table {
 	table-layout: fixed;
 	border-radius: 10px;
 	font-size: 20px;
+	text-align: center;
+	align-items: center;
+	align-self: center;
+	align-content: center;
+	justify-content: center;
 }
 
 th:hover {
-	background-color: gray;
+	background-color: rgb(130, 130, 130);
 	color: white;
+}
+
+td {
+	font-size: 15px;
+	padding: 20px 0px 20px 0px;
 }
 
 .nonmetals {
