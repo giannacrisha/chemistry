@@ -12,6 +12,7 @@ a {
 	letter-spacing: 10px;
 	color: #9fa9a3;
 	text-align: center;
+	font-weight: bold;
 }
 
 nav {
@@ -26,6 +27,8 @@ nav {
 	justify-content: center;
 	align-items: center;
 	overflow: auto;
+	padding-left: 15px;
+	padding-right: 15px;
 }
 
 nav a {
@@ -34,7 +37,7 @@ nav a {
 	font-size: 14px;
 	margin: auto;
 	line-height: 50px;
-	padding: 12px;
+	padding: 13px;
 	border-radius: 20px;
 }
 
@@ -47,16 +50,19 @@ nav a:hover{
 	background-color: #9fa9a3;
 }
 
-
+#periodictable {
+	margin-top: 20px;
+}
 
 .column {
-	float: right;
+	float: left;
 	width: 32%;
 	background-color: #e3e0cc;
 	border: 1px #e3e0cc;
 	border-radius: 12px;
 	margin: 6px;
-	margin-left: 10px;
+	margin-left: 11px;
+	height: 430px;
 }
 
 .row:after {
@@ -103,9 +109,10 @@ footer {
 	left: 0;
 	right: 0;
 	line-height: 40px;
-	padding: 10px 10px 10px 50px;
 	font-size: 20px;
 	color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 #gitlink {
@@ -115,12 +122,16 @@ footer {
 }
 
 #gitlink:hover {
-	color: #eeede6;
+	color: #e3e0cc;
     text-shadow:
     -1px -1px 0 #000,
     1px -1px 0 #000,
     -1px 1px 0 #000,
     1px 1px 0 #000;  
+}
+
+img {
+	border-radius: 15px;
 }
 
 
