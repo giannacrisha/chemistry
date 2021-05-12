@@ -205,6 +205,12 @@ img {
 table {
 	table-layout: fixed;
 	border-radius: 10px;
+	font-size: 20px;
+}
+
+th:hover {
+	background-color: gray;
+	color: white;
 }
 
 .nonmetals {
@@ -246,26 +252,45 @@ table {
 }
 #lanthanide {
 	margin-top: 9px;
-	margin-left: 40px;
 	display: none;
 	position: absolute;
-
 }
 
 #actinide {
-	margin-top: 75px;
-	margin-left: 40px;
+	margin-top: 80px;
 	display: none;
 	position: absolute;
 }
 
 button {
-	padding: 5px 7px 5px 7px;
-	margin: 0px;
-	border-radius: 5px;
-	align-self: center;
+    display:inline-block;
+    width: 100%;
+    padding: 30px 5px 30px 5px;
+    font-family: helvetica;
+    font-size: 10px;
+    font-weight: bold;
+    color: gray;
 }
 
+#lanthanidebutton {
+	background-color: #BCC8A9;
+	border: none; 
+}
+
+#actinidebutton {
+	background-color: #E6F1D4;
+	border: none; 
+}
+
+#lanthanidebutton:hover {
+	background-color: gray;
+	color: white;
+}
+
+#actinidebutton:hover {
+	background-color: gray;
+	color: white; 
+}
 
 
 
