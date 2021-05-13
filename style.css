@@ -119,10 +119,18 @@ header {
 	width: 100px;
 }
 
-.column {
+.twocolumn {
 	float: left;
-	width: 45%;
-	padding-left: 3em;
+	width: 46%;
+	padding-left: 2em;
+}
+
+.fourcolumn {
+	float: left;
+	width: 26%;
+	padding-left: 1.5em;
+	overflow: scroll;
+	margin: -20px;
 }
 
 .row:after {
@@ -163,12 +171,15 @@ header {
 
 /* TEXT ELEMENTS */
 
+h1 {
+	text-align: center;
+}
 h2 {
 	font-size: 30px;
 	text-align: center;
 	color: #9fa9a3;
 	letter-spacing: 1px;
-	font-weight: bold; 
+	font-weight: bold;
 }
 
 h3 {
@@ -179,6 +190,16 @@ h3 {
 
 p {
 	padding-left: 4em;
+	font-size: 20px;
+	font-family: times new roman;
+}
+
+ul {
+	line-height: 2em;
+	font-size: 20px;
+	font-family: times new roman;
+	font-size: 20px;
+}
 }
 
 /* TABLE ELEMENTS */
