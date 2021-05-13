@@ -216,8 +216,15 @@ th {
 	padding-right: 0px;
 }
 th:hover {
-	background-color: rgb(130, 130, 130);
-	color: white;
+	animation-name: fade;
+	animation-duration: 30s;
+}
+
+@keyframes fade {
+	3% {
+		background-color: gray;
+		color: white;
+	}
 }
 
 td {
@@ -296,13 +303,13 @@ button {
 }
 
 #lanthanidebutton:hover {
-	background-color: gray;
-	color: white;
+	animation-name: fade;
+	animation-duration: 30s;
 }
 
 #actinidebutton:hover {
-	background-color: gray;
-	color: white; 
+	animation-name: fade;
+	animation-duration: 30s;
 }
 
 #atomicmass {
@@ -442,6 +449,9 @@ button {
 	margin-left: 14.5em;
 }
 
+main {
+	margin-top: -5em;
+}
 
 
 
