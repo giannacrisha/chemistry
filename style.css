@@ -463,9 +463,21 @@ button {
 	color: gray;
 }
 
+#physics {
+	letter-spacing: 10px;
+	color: white;
+	font-weight: bold;
+	font-size: 40px;
+	margin: 0px;
+}
+
+#physics:hover {
+	color: gray;
+}
+
 footer {
 	width: 100%;
-	height:100px;
+	height:170px;
 	background-color: #c5d5c5;
 	margin-top:30em;
 	position: absolute;
