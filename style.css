@@ -310,6 +310,14 @@ button {
 	margin-bottom: -10px;
 }
 
+#atomicnum {
+	font-size: 10px;
+	padding: 0px;
+	margin: 0px;
+	border:0px;
+	margin-top: -15px;
+	margin-bottom: 3px;
+}
 
 
 

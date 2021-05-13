@@ -57,7 +57,7 @@ HEX: #e3e0cc sand
 	<br><br><br>
 	<center>
 		<table cellspacing="0px" cellpadding="25px" width="90%">
-		<!-- HEADING -->
+		<!-- HEADING & LEGENDS -->
 			<tr>
 				<td>1A</td>
 				<td></td>
@@ -80,7 +80,8 @@ HEX: #e3e0cc sand
 			</tr>
 		<!-- FIRST PERIOD -->
 			<tr>
-				<th class="nonmetals" id="h" style="border-top-left-radius: 10px; border-top-right-radius: 10px;">H<br>
+				<th class="nonmetals" id="h" style="border-top-left-radius: 10px; border-top-right-radius: 10px;">
+					<p id="atomicnum">1</p>H<br>
 					<p id="atomicmass">1.008</p>
 				</th>
 				<td> 2A </td>
@@ -99,15 +100,18 @@ HEX: #e3e0cc sand
 				<td>5A</td>
 				<td>6A</td>
 				<td>7A</td>
-				<th class="noblegases" id="he" style="border-top-left-radius: 10px; border-top-right-radius: 10px;">He<br>
+				<th class="noblegases" id="he" style="border-top-left-radius: 10px; border-top-right-radius: 10px;">
+					<p id="atomicnum">2</p>He<br>
 					<p id="atomicmass">4.003</p>
 				</th>
 			</tr>
 		<!-- SECOND PERIOD -->
 			<tr>
-				<th class="alkalimetals" id="li">Li<br>
+				<th class="alkalimetals" id="li">
+					<p id="atomicnum">3</p>Li<br>
 					<p id="atomicmass">6.941</p></th>
-				<th class="alkalinearths" id="be" style="border-top-right-radius: 10px;">Be<br>
+				<th class="alkalinearths" id="be" style="border-top-right-radius: 10px;">
+					<p id="atomicnum">4</p>Be<br>
 					<p id="atomicmass">9.012</p></th>
 				<td></td>
 				<td></td>
@@ -119,24 +123,32 @@ HEX: #e3e0cc sand
 				<td></td>
 				<td></td>
 				<td></td>
-				<th class="metalloids" id="b" style="border-top-left-radius: 10px;">B<br>
-					<p id="atomicmass">10.81</p></th>
-				<th class="nonmetals" id="c">C<br>
+				<th class="metalloids" id="b" style="border-top-left-radius: 10px;">
+					<p id="atomicnum">5</p>B<br>
+					<p id="atomicmass">10.811</p></th>
+				<th class="nonmetals" id="c">
+					<p id="atomicnum">6</p>C<br>
 					<p id="atomicmass">12.011</p></th>
-				<th class="nonmetals" id="n">N<br>
+				<th class="nonmetals" id="n">
+					<p id="atomicnum">10</p>N<br>
 					<p id="atomicmass">14.007</p></th>
-				<th class="nonmetals" id="o">O<br>
+				<th class="nonmetals" id="o">
+					<p id="atomicnum">8</p>O<br>
 					<p id="atomicmass">15.999</p></th>
-				<th class="halogens" id="f">F<br>
+				<th class="halogens" id="f">
+					<p id="atomicnum">10</p>F<br>
 					<p id="atomicmass">18.998</p></th>
-				<th class="noblegases" id="ne">Ne<br>
+				<th class="noblegases" id="ne">
+					<p id="atomicnum">10</p>Ne<br>
 					<p id="atomicmass">20.180</p></th>
 			</tr>
 		<!-- THIRD PERIOD -->
 			<tr>
-				<th class="alkalimetals" id="na">Na<br>
+				<th class="alkalimetals" id="na">
+					<p id="atomicnum">11</p>Na<br>
 					<p id="atomicmass">22.990</p></th>
-				<th class="alkalinearths" id="mg">Mg<br>
+				<th class="alkalinearths" id="mg">
+					<p id="atomicnum">12</p>Mg<br>
 					<p id="atomicmass">24.305</p></th>
 				<td>3B</td>
 				<td>4B</td>
@@ -148,249 +160,357 @@ HEX: #e3e0cc sand
 				<td>8B</td>
 				<td>1B</td>
 				<td>2B</td>
-				<th class="basicmetals" id="al">Al<br>
+				<th class="basicmetals" id="al">
+					<p id="atomicnum">13</p>Al<br>
 					<p id="atomicmass">26.982</p></th>
-				<th class="metalloids" id="si">Si<br>
+				<th class="metalloids" id="si">
+					<p id="atomicnum">14</p>Si<br>
 					<p id="atomicmass">28.086</p></th>
-				<th class="nonmetals" id="p">P<br>
+				<th class="nonmetals" id="p">
+					<p id="atomicnum">15</p>P<br>
 					<p id="atomicmass">30.974</p></th>
-				<th class="nonmetals" id="s">S<br>
+				<th class="nonmetals" id="s">
+					<p id="atomicnum">16</p>S<br>
 					<p id="atomicmass">32.066</p></th>
-				<th class="halogens" id="cl">Cl<br>
+				<th class="halogens" id="cl">
+					<p id="atomicnum">17</p>Cl<br>
 					<p id="atomicmass">35.453</p></th>
-				<th class="noblegases" id="ar">Ar<br>
+				<th class="noblegases" id="ar">
+					<p id="atomicnum">18</p>Ar<br>
 					<p id="atomicmass">39.948</p></th>
 			</tr>
 		<!-- FOURTH PERIOD -->
 			<tr>
-				<th class="alkalimetals" id="k">K<br>
+				<th class="alkalimetals" id="k">
+					<p id="atomicnum">19</p>K<br>
 					<p id="atomicmass">39.098</p></th>
-				<th class="alkalinearths" id="ca">Ca<br>
+				<th class="alkalinearths" id="ca">
+					<p id="atomicnum">20</p>Ca<br>
 					<p id="atomicmass">40.078</p></th>
-				<th class="transitionmetals" id="al">Sc<br>
+				<th class="transitionmetals" id="al">
+					<p id="atomicnum">21</p>Sc<br>
 					<p id="atomicmass">44.956</p></th>
-				<th class="transitionmetals" id="al">Ti<br>
+				<th class="transitionmetals" id="al">
+					<p id="atomicnum">22</p>Ti<br>
 					<p id="atomicmass">47.867</p></th>
-				<th class="transitionmetals" id="al">V<br>
+				<th class="transitionmetals" id="al">
+					<p id="atomicnum">23</p>V<br>
 					<p id="atomicmass">50.942</p></th>
-				<th class="transitionmetals" id="al">Cr<br>
+				<th class="transitionmetals" id="al">
+					<p id="atomicnum">24</p>Cr<br>
 					<p id="atomicmass">51.996</p></th>
-				<th class="transitionmetals" id="al">Mn<br>
+				<th class="transitionmetals" id="al">
+					<p id="atomicnum">25</p>Mn<br>
 					<p id="atomicmass">54.938</p></th>
-				<th class="transitionmetals" id="al">Fe<br>
+				<th class="transitionmetals" id="al">
+					<p id="atomicnum">26</p>Fe<br>
 					<p id="atomicmass">55.845</p></th>
-				<th class="transitionmetals" id="al">Co<br>
+				<th class="transitionmetals" id="al">
+					<p id="atomicnum">27</p>Co<br>
 					<p id="atomicmass">58.933</p></th>
-				<th class="transitionmetals" id="al">Ni<br>
+				<th class="transitionmetals" id="al">
+					<p id="atomicnum">28</p>Ni<br>
 					<p id="atomicmass">58.693</p></th>
-				<th class="transitionmetals" id="al">Cu<br>
+				<th class="transitionmetals" id="al">
+					<p id="atomicnum">29</p>Cu<br>
 					<p id="atomicmass">63.546</p></th>
-				<th class="transitionmetals" id="al">Zn<br>
+				<th class="transitionmetals" id="al">
+					<p id="atomicnum">30</p>Zn<br>
 					<p id="atomicmass">65.38</p></th>
-				<th class="basicmetals" id="al">Ga<br>
+				<th class="basicmetals" id="al">
+					<p id="atomicnum">31</p>Ga<br>
 					<p id="atomicmass">69.723</p></th>
-				<th class="metalloids" id="ge">Ge<br>
+				<th class="metalloids" id="ge">
+					<p id="atomicnum">32</p>Ge<br>
 					<p id="atomicmass">72.631</p></th>
-				<th class="metalloids" id="as">As<br>
+				<th class="metalloids" id="as">
+					<p id="atomicnum">33</p>As<br>
 					<p id="atomicmass">74.922</p></th>
-				<th class="nonmetals" id="se">Se<br>
-					<p id="atomicmass">78.872</p></th>
-				<th class="halogens" id="br">Br<br>
+				<th class="nonmetals" id="se">
+					<p id="atomicnum">34</p>Se<br>
+					<p id="atomicmass">78.972</p></th>
+				<th class="halogens" id6="br">
+					<p id="atomicnum">35</p>Br<br>
 					<p id="atomicmass">79.904</p></th>
-				<th class="noblegases" id="kr">Kr<br>
+				<th class="noblegases" id="kr">
+					<p id="atomicnum">36</p>Kr<br>
 					<p id="atomicmass">84.798</p></th>
 			</tr>
 		<!-- FIFTH PERIOD -->
 			<tr>
-				<th class="alkalimetals" id="rb">Rb<br>
+				<th class="alkalimetals" id="rb">
+					<p id="atomicnum">37</p>Rb<br>
 					<p id="atomicmass">85.468</p></th>
-				<th class="alkalinearths" id="sr">Sr<br>
+				<th class="alkalinearths" id="sr">
+					<p id="atomicnum">38</p>Sr<br>
 					<p id="atomicmass">87.62</p></th>
-				<th class="transitionmetals" id="al">Y<br>
+				<th class="transitionmetals" id="al">
+					<p id="atomicnum">39</p>Y<br>
 					<p id="atomicmass">88.906</p></th>
-				<th class="transitionmetals" id="al">Zr<br>
+				<th class="transitionmetals" id="al">
+					<p id="atomicnum">40</p>Zr<br>
 					<p id="atomicmass">91.224</p></th>
-				<th class="transitionmetals" id="al">Nb<br>
+				<th class="transitionmetals" id="al">
+					<p id="atomicnum">41</p>Nb<br>
 					<p id="atomicmass">92.906</p></th>
-				<th class="transitionmetals" id="al">Mo<br>
+				<th class="transitionmetals" id="al">
+					<p id="atomicnum">42</p>Mo<br>
 					<p id="atomicmass">95.95</p></th>
-				<th class="transitionmetals" id="al">Tc<br>
+				<th class="transitionmetals" id="al">
+					<p id="atomicnum">43</p>Tc<br>
 					<p id="atomicmass">98.907</p></th>
-				<th class="transitionmetals" id="al">Ru<br>
+				<th class="transitionmetals" id="al">
+					<p id="atomicnum">44</p>Ru<br>
 					<p id="atomicmass">101.07</p></th>
-				<th class="transitionmetals" id="al">Rh<br>
+				<th class="transitionmetals" id="al">
+					<p id="atomicnum">45</p>Rh<br>
 					<p id="atomicmass">102.906</p></th>
-				<th class="transitionmetals" id="al">Pd<br>
+				<th class="transitionmetals" id="al">
+					<p id="atomicnum">46</p>Pd<br>
 					<p id="atomicmass">106.42</p></th>
-				<th class="transitionmetals" id="al">Ag<br>
+				<th class="transitionmetals" id="al">
+					<p id="atomicnum">47</p>Ag<br>
 					<p id="atomicmass">107.868</p></th>
-				<th class="transitionmetals" id="al">Cd<br>
+				<th class="transitionmetals" id="al">
+					<p id="atomicnum">48</p>Cd<br>
 					<p id="atomicmass">112.411</p></th>
-				<th class="basicmetals" id="al">In<br>
+				<th class="basicmetals" id="al">
+					<p id="atomicnum">49</p>In<br>
 					<p id="atomicmass">114.818</p></th>
-				<th class="basicmetals" id="al">Sn<br>
+				<th class="basicmetals" id="al">
+					<p id="atomicnum">50</p>Sn<br>
 					<p id="atomicmass">118.711</p></th>
-				<th class="metalloids" id="sb">Sb<br>
+				<th class="metalloids" id="sb">
+					<p id="atomicnum">51</p>Sb<br>
 					<p id="atomicmass">121.760</p></th>
-				<th class="metalloids" id="te">Te<br>
+				<th class="metalloids" id="te">
+					<p id="atomicnum">52</p>Te<br>
 					<p id="atomicmass">127.6</p></th>
-				<th class="halogens" id="i">I<br>
+				<th class="halogens" id="i">
+					<p id="atomicnum">53</p>I<br>
 					<p id="atomicmass">126.904</p></th>
-				<th class="noblegases" id="xe">Xe<br>
+				<th class="noblegases" id="xe">
+					<p id="atomicnum">54</p>Xe<br>
 					<p id="atomicmass">131.294</p></th>
 			</tr>
 		<!-- SIXTH PERIOD -->
 			<tr>
-				<th class="alkalimetals" id="cs">Cs<br>
+				<th class="alkalimetals" id="cs">
+					<p id="atomicnum">55</p>Cs<br>
 					<p id="atomicmass">132.905</p></th>
-				<th class="alkalinearths" id="ba">Ba<br>
+				<th class="alkalinearths" id="ba">
+					<p id="atomicnum">56</p>Ba<br>
 					<p id="atomicmass">137.328</p></th>
 				<td bgcolor="#BCC8A9" style="padding: 0px">
 					<button id="lanthanidebutton" onclick="appearLanthanide()">
-						<label>Lanthanides</label>
+						<label>
+					<p id="atomicnum">57-71</p>Lanthanides</label>
 					</button>
 				</td>
-				<th class="transitionmetals" id="al">Hf<br>
+				<th class="transitionmetals" id="al">
+					<p id="atomicnum">72</p>Hf<br>
 					<p id="atomicmass">178.49</p></th>
-				<th class="transitionmetals" id="al">Ta<br>
+				<th class="transitionmetals" id="al">
+					<p id="atomicnum">73</p>Ta<br>
 					<p id="atomicmass">180.948</p></th>
-				<th class="transitionmetals" id="al">W<br>
+				<th class="transitionmetals" id="al">
+					<p id="atomicnum">74</p>W<br>
 					<p id="atomicmass">183.84</p></th>
-				<th class="transitionmetals" id="al">Re<br>
+				<th class="transitionmetals" id="al">
+					<p id="atomicnum">75</p>Re<br>
 					<p id="atomicmass">186.207</p></th>
-				<th class="transitionmetals" id="al">Os<br>
+				<th class="transitionmetals" id="al">
+					<p id="atomicnum">76</p>Os<br>
 					<p id="atomicmass">190.23</th>
-				<th class="transitionmetals" id="al">Ir<br>
+				<th class="transitionmetals" id="al">
+					<p id="atomicnum">77</p>Ir<br>
 					<p id="atomicmass">192.217</p></th>
-				<th class="transitionmetals" id="al">Pt<br>
+				<th class="transitionmetals" id="al">
+					<p id="atomicnum">78</p>Pt<br>
 					<p id="atomicmass">195.085</p></th>
-				<th class="transitionmetals" id="al">Au<br>
+				<th class="transitionmetals" id="al">
+					<p id="atomicnum">79</p>Au<br>
 					<p id="atomicmass">196.967</p></th>
-				<th class="transitionmetals" id="al">Hg<br>
+				<th class="transitionmetals" id="al">
+					<p id="atomicnum">80</p>Hg<br>
 					<p id="atomicmass">200.592</p></th>
-				<th class="basicmetals" id="al">Tl<br>
+				<th class="basicmetals" id="al">
+					<p id="atomicnum">81</p>Tl<br>
 					<p id="atomicmass">204.383</p></th>
-				<th class="basicmetals" id="al">Pb<br>
+				<th class="basicmetals" id="al">
+					<p id="atomicnum">82</p>Pb<br>
 					<p id="atomicmass">207.2</p></th>
-				<th class="basicmetals" id="al">Bi<br>
+				<th class="basicmetals" id="al">
+					<p id="atomicnum">83</p>Bi<br>
 					<p id="atomicmass">208.980</p></th>
-				<th class="metalloids" id="po">Po<br>
-					<p id="atomicmass">208.982</p></th>
-				<th class="halogens" id="at">At<br>
+				<th class="metalloids" id="po">
+					<p id="atomicnum">84</p>Po<br>
+					<p id="atomicmass">[208.982]</p></th>
+				<th class="halogens" id="at">
+					<p id="atomicnum">85</p>At<br>
 					<p id="atomicmass">209.987</p></th>
-				<th class="noblegases" id="rn">Rn<br>
+				<th class="noblegases" id="rn">
+					<p id="atomicnum">86</p>Rn<br>
 					<p id="atomicmass">222.018</p></th>
 			</tr>
 		<!-- SEVENTH PERIOD -->
 			<tr>
-				<th class="alkalimetals" id="fr" style="border-bottom-left-radius: 10px;">Fr<br>
+				<th class="alkalimetals" id="fr" style="border-bottom-left-radius: 10px;">
+					<p id="atomicnum">87</p>Fr<br>
 					<p id="atomicmass">223.020</p></th>
-				<th class="alkalinearths" id="be">Ra<br>
+				<th class="alkalinearths" id="be">
+					<p id="atomicnum">88</p>Ra<br>
 					<p id="atomicmass">226.025</p></th>
 				<td bgcolor="#E6F1D4" style="padding: 0px">
 					<button id="actinidebutton" onclick="appearActinide()">
-						<label>Actinides</label>
+						<label>
+					<p id="atomicnum">89-103</p>Actinides</label>
 					</button>
 				</td>
-				<th class="transitionmetals" id="al">Rf<br>
-					<p id="atomicmass">261</p></th>
-				<th class="transitionmetals" id="al">Db<br>
-					<p id="atomicmass">262</p></th>
-				<th class="transitionmetals" id="al">Sg<br>
-					<p id="atomicmass">266</p></th>
-				<th class="transitionmetals" id="al">Bh<br>
-					<p id="atomicmass">264</p></th>
-				<th class="transitionmetals" id="al">Hs<br>
-					<p id="atomicmass">269</p></th>
-				<th class="transitionmetals" id="al">Mt<br>
-					<p id="atomicmass">268</p></th>
-				<th class="transitionmetals" id="al">Ds<br>
-					<p id="atomicmass">169</p></th>
-				<th class="transitionmetals" id="al">Rg<br>
-					<p id="atomicmass">272</p></th>
-				<th class="transitionmetals" id="al">Cn<br>
-					<p id="atomicmass">277</p></th>
-				<th class="basicmetals" id="al">Uut<br>
+				<th class="transitionmetals" id="al">
+					<p id="atomicnum">104</p>Rf<br>
+					<p id="atomicmass">[261]</p></th>
+				<th class="transitionmetals" id="al">
+					<p id="atomicnum">105</p>Db<br>
+					<p id="atomicmass">[262]</p></th>
+				<th class="transitionmetals" id="al">
+					<p id="atomicnum">106</p>Sg<br>
+					<p id="atomicmass">[266]</p></th>
+				<th class="transitionmetals" id="al">
+					<p id="atomicnum">107</p>Bh<br>
+					<p id="atomicmass">[264]</p></th>
+				<th class="transitionmetals" id="al">
+					<p id="atomicnum">108</p>Hs<br>
+					<p id="atomicmass">[269]</p></th>
+				<th class="transitionmetals" id="al">
+					<p id="atomicnum">109</p>Mt<br>
+					<p id="atomicmass">[268]</p></th>
+				<th class="transitionmetals" id="al">
+					<p id="atomicnum">110</p>Ds<br>
+					<p id="atomicmass">[269]</p></th>
+				<th class="transitionmetals" id="al">
+					<p id="atomicnum">111</p>Rg<br>
+					<p id="atomicmass">[272]</p></th>
+				<th class="transitionmetals" id="al">
+					<p id="atomicnum">112</p>Cn<br>
+					<p id="atomicmass">[277]</p></th>
+				<th class="basicmetals" id="al">
+					<p id="atomicnum">113</p>Uut<br>
 					<p id="atomicmass">unknown</p></th>
-				<th class="basicmetals" id="al">Fl<br>
-					<p id="atomicmass">289</p></th>
-				<th class="basicmetals" id="al">Uup<br>
+				<th class="basicmetals" id="al">
+					<p id="atomicnum">114</p>Fl<br>
+					<p id="atomicmass">[289]</p></th>
+				<th class="basicmetals" id="al">
+					<p id="atomicnum">115</p>Uup<br>
 					<p id="atomicmass">unknown</p></th>
-				<th class="basicmetals" id="al">Lv<br>
-					<p id="atomicmass">298</p></th>
-				<th class="halogens" id="uus">Uus<br>
+				<th class="basicmetals" id="al">
+					<p id="atomicnum">116</p>Lv<br>
+					<p id="atomicmass">[298]</p></th>
+				<th class="halogens" id="uus">
+					<p id="atomicnum">117</p>Uus<br>
 					<p id="atomicmass">unknown</p></th>
-				<th class="noblegases" id="uuo" style="border-bottom-right-radius: 10px;">Uuo<br>
+				<th class="noblegases" id="uuo" style="border-bottom-right-radius: 10px;">
+					<p id="atomicnum">118</p>Uuo<br>
 					<p id="atomicmass">unknown</p></th>
 				</tr>
 		</table>
 		<!-- LANTHANIDES AND ACTINIDES -->
 		<div id="lanthanide">
 			<table class="lanthanides" border="0px" cellspacing="0px" cellpadding="20px" width="65%">
-				<th id="la">La<br>
+				<th id="la">
+					<p id="atomicnum">57</p>La<br>
 					<p id="atomicmass">138.905</p></th>
-				<th id="ce">Ce<br>
+				<th id="ce">
+					<p id="atomicnum">58</p>Ce<br>
 					<p id="atomicmass">140.116</p></th>
-				<th id="pr">Pr<br>
+				<th id="pr">
+					<p id="atomicnum">59</p>Pr<br>
 					<p id="atomicmass">140.908</p></th>
-				<th id="nd">Nd<br>
+				<th id="nd">
+					<p id="atomicnum">60</p>Nd<br>
 					<p id="atomicmass">144.242</p></th>
-				<th id="pm">Pm<br>
+				<th id="pm">
+					<p id="atomicnum">61</p>Pm<br>
 					<p id="atomicmass">144.913</p></th>
-				<th id="sm">Sm<br>
+				<th id="sm">
+					<p id="atomicnum">62</p>Sm<br>
 					<p id="atomicmass">150.36</p></th>
-				<th id="eu">Eu<br>
+				<th id="eu">
+					<p id="atomicnum">63</p>Eu<br>
 					<p id="atomicmass">151.964</p></th>
-				<th id="gd">Gd<br>
+				<th id="gd">
+					<p id="atomicnum">64</p>Gd<br>
 					<p id="atomicmass">157.25</p></th>
-				<th id="tb">Tb<br>
+				<th id="tb">
+					<p id="atomicnum">65</p>Tb<br>
 					<p id="atomicmass">158.925</p></th>
-				<th id="dy">Dy<br>
+				<th id="dy">
+					<p id="atomicnum">66</p>Dy<br>
 					<p id="atomicmass">162.500</p></th>
-				<th id="ho">Ho<br>
+				<th id="ho">
+					<p id="atomicnum">67</p>Ho<br>
 					<p id="atomicmass">164.930</p></th>
-				<th id="er">Er<br>
+				<th id="er">
+					<p id="atomicnum">68</p>Er<br>
 					<p id="atomicmass">167.259</p></th>
-				<th id="tm">Tm<br>
+				<th id="tm">
+					<p id="atomicnum">69</p>Tm<br>
 					<p id="atomicmass">168.934</p></th>
-				<th id="yb">Yb<br>
+				<th id="yb">
+					<p id="atomicnum">70</p>Yb<br>
 					<p id="atomicmass">173.055</p></th>
-				<th id="lu">Lu<br>
+				<th id="lu">
+					<p id="atomicnum">71</p>Lu<br>
 					<p id="atomicmass">174.967</p></th>
 			</table>
 		</div>
 		<div id="actinide">
 			<table class="actinides" border="0px" cellspacing="0px" cellpadding="20px" width="65%">
-				<th id="Ac">Ac <br>
+				<th id="Ac">
+					<p id="atomicnum">89</p>Ac <br>
 					<p id="atomicmass">227.028</p></th>
-				<th id="Th">Th<br>
+				<th id="Th">
+					<p id="atomicnum">90</p>Th<br>
 					<p id="atomicmass">232.038</p></th>
-				<th id="Pa">Pa<br>
+				<th id="Pa">
+					<p id="atomicnum">91</p>Pa<br>
 					<p id="atomicmass">231.036</p></th>
-				<th id="U">U<br>
+				<th id="U">
+					<p id="atomicnum">92</p>U<br>
 					<p id="atomicmass">238.029</p></th>
-				<th id="Np">Np<br>
+				<th id="Np">
+					<p id="atomicnum">93</p>Np<br>
 					<p id="atomicmass">237.048</p></th>
-				<th id="Pu">Pu<br>
+				<th id="Pu">
+					<p id="atomicnum">94</p>Pu<br>
 					<p id="atomicmass">244.064</p></th>
-				<th id="Am">Am<br>
+				<th id="Am">
+					<p id="atomicnum">95</p>Am<br>
 					<p id="atomicmass">243.061</p></th>
-				<th id="Cm">Cm<br>
+				<th id="Cm">
+					<p id="atomicnum">96</p>Cm<br>
 					<p id="atomicmass">247.070</p></th>
-				<th id="Bk">Bk<br>
+				<th id="Bk">
+					<p id="atomicnum">97</p>Bk<br>
 					<p id="atomicmass">247.070</p></th>
-				<th id="Cf">Cf<br>
+				<th id="Cf">
+					<p id="atomicnum">98</p>Cf<br>
 					<p id="atomicmass">251.080</p></th>
-				<th id="Es">Es<br>
-					<p id="atomicmass">254</p></th>
-				<th id="Fm">Fm<br>
+				<th id="Es">
+					<p id="atomicnum">99</p>Es<br>
+					<p id="atomicmass">[254]</p></th>
+				<th id="Fm">
+					<p id="atomicnum">100</p>Fm<br>
 					<p id="atomicmass">257.095</p></th>
-				<th id="Md">Md<br>
+				<th id="Md">
+					<p id="atomicnum">101</p>Md<br>
 					<p id="atomicmass">258.1</p></th>
-				<th id="No">No<br>
+				<th id="No">
+					<p id="atomicnum">102</p>No<br>
 					<p id="atomicmass">259.101</p></th>
-				<th id="Lr">Lr<br>
-					<p id="atomicmass">262</p></th>
+				<th id="Lr">
+					<p id="atomicnum">103</p>Lr<br>
+					<p id="atomicmass">[262]</p></th>
 			</table>
 		</div>
 	</center><br>
