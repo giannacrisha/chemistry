@@ -6,19 +6,19 @@
 	<script type="text/javascript">
 		function appearLanthanide() {
 			var x = document.getElementById("lanthanide");
-			if (x.style.display === "block") {
-				x.style.display = "none";
-			} else {
+			if (x.style.display === "none") {
 				x.style.display = "block";
+			} else {
+				x.style.display = "none";
 			}
 		}
 
 		function appearActinide() {
 			var x = document.getElementById("actinide");
-			if (x.style.display === "block") {
-				x.style.display = "none";
-			} else {
+			if (x.style.display === "none") {
 				x.style.display = "block";
+			} else {
+				x.style.display = "none";
 			}
 		}
 	</script>
@@ -54,7 +54,12 @@ HEX: #e3e0cc sand
 			<a id="fb" href="https://facebook.com/giannacrisha"><img src="logos/fb.png"></a>
 		</h4>
 	</div>
-	<br><br><br>
+	<div id="larrow">
+		<div id="larrowhead"></div>
+		<div id="larrowtail">
+			increasing ionization energy, electronegativity, and magnitute of electron affinity
+		</div>
+	</div>
 	<center>
 		<table cellspacing="0px" cellpadding="25px" width="90%">
 		<!-- HEADING & LEGENDS -->
@@ -512,8 +517,25 @@ HEX: #e3e0cc sand
 					<p id="atomicnum">103</p>Lr<br>
 					<p id="atomicmass">[262]</p></th>
 			</table>
-		</div>
 	</center><br>
+	<div id="barrow1">
+		<div id="barrowhead1"></div>
+		<div id="barrowtail1">
+			increasing ionization energy, electronegativity, and magnitute of electron affinity
+		</div></div>
+	</div><br>
+	<div id="barrow2">
+		<div id="barrowhead2"></div>
+		<div id="barrowtail2">
+			increasing atomic radius
+		</div></div>
+	</div><br>
+	<div id="rarrow">
+		<div id="rarrowhead"></div>
+		<div id="rarrowtail">
+			increasing atomic radius
+		</div>
+	</div>
 	<div>
 		<center>
 			<footer>
