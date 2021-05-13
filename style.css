@@ -61,6 +61,8 @@ nav input[type=text] {
 	font-size: 14px;
 	border-radius: 15px;
 	text-indent: 10px;
+	background-color: #F3F1E4;
+	color: gray;
 }
 
 header {
