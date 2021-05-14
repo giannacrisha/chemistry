@@ -1,3 +1,5 @@
+/* TEXT ELEMENTS */
+
 body {
 	background-color: white;
 	font-family: helvetica;
@@ -6,6 +8,21 @@ body {
 
 a {
 	text-decoration: none;
+}
+
+@font-face {
+	font-family: montserratBlack;
+	src: url(Montserrat/Montserrat-Black.ttf);
+}
+
+@font-face {
+	font-family: montserratBold;
+	src: url(Montserrat/Montserrat-bold.ttf);
+}
+
+@font-face {
+	font-family: montserratSemiBold;
+	src: url(Montserrat/Montserrat-SemiBold.ttf);
 }
 
 /* NAVIGATION BAR */
@@ -72,12 +89,13 @@ header {
 	margin-top: -1em;
 }
 
+
 #logo {
 	width: 130px;
 	float: left;
-	padding-top: 65px;
-	padding-right: 5px;
-	padding-left: 20px;
+	padding-top: 4em;
+	padding-right: 1em;
+	padding-left: 1.5em;
 }
 
 #chemistry {
@@ -85,22 +103,23 @@ header {
 	color: #9fa9a3;
 	font-weight: bold;
 	float: left;
-	font-size: 40px;
-	padding-top: 70px;
+	font-size: 70px;
+	padding-top: 30px;
+	font-family: montserratBlack;
 }
 
 
 #devname {
-	padding-top: 120px;
+	padding-top: 8.1em;
 	color: #c5d5c5;
 	letter-spacing: 1px;
 	padding-bottom: 10px;
 }
 
 #devlink {
-	padding-top: 95px;
 	color: #c5d5c5;
 	letter-spacing: 2px;
+	font-family: montserratSemiBold;
 }
 
 #devlink:hover {
@@ -108,7 +127,7 @@ header {
 }
 
 #socmed {
-	margin-top: -120px;
+	margin-top: -8em;
 	text-align: right;
 	padding-right: 20px;
 }
@@ -463,6 +482,7 @@ button {
 #gitlink {
 	color: white;
 	font-weight: bold;
+	font-family: montserratSemiBold;
 }
 
 #gitlink:hover {
@@ -475,6 +495,7 @@ button {
 	font-weight: bold;
 	font-size: 40px;
 	margin: 0px;
+	font-family: montserratBlack;
 }
 
 #physics:hover {
