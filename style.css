@@ -422,9 +422,6 @@ button {
 	float: right;
 }
 
-#barrow1 {
-}
-
 #barrowtail1 {
 	font-size: 15px;
 	background-color: #828282;
@@ -448,9 +445,6 @@ button {
 	transform: rotate(90deg);
 	right: 50%;
 	margin-left: 71.9em;
-}
-
-#barrow2 {
 }
 
 #barrowtail2 {
@@ -477,6 +471,11 @@ button {
 	margin-left: 14.5em;
 }
 
+@media screen and (max-width: 481px) {
+	#larrow, #rarrow, #barrow1, #barrow2 {
+		display: none;
+	}
+}
 /* FOOTER*/
 
 #gitlink {
