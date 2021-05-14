@@ -229,6 +229,11 @@ th:hover {
 		background-color: gray;
 		color: white;
 	}
+
+	100% {
+		background-color: gray;
+		color: white;
+	}
 }
 
 td {
