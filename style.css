@@ -25,6 +25,32 @@ a {
 	src: url(Montserrat/Montserrat-SemiBold.ttf);
 }
 
+h2 {
+	font-size: 30px;
+	text-align: center;
+	color: #9fa9a3;
+	letter-spacing: 1px;
+	font-weight: bold;
+}
+
+h3 {
+	text-indent: 2em;
+	color: #c5d5c5;
+	text-shadow: 1px 1px 0 #9fa9a3;
+}
+
+p {
+	padding-left: 4em;
+	font-size: 20px;
+}
+
+ul {
+	line-height: 2em;
+	font-size: 20px;
+	font-family: times new roman;
+	font-size: 20px;
+}
+
 /* NAVIGATION BAR */
 
 nav {
@@ -162,37 +188,6 @@ header {
   		display: none;
   	}
   }
-
-/* TEXT ELEMENTS */
-
-h1 {
-	text-align: center;
-}
-h2 {
-	font-size: 30px;
-	text-align: center;
-	color: #9fa9a3;
-	letter-spacing: 1px;
-	font-weight: bold;
-}
-
-h3 {
-	text-indent: 2em;
-	color: #c5d5c5;
-	text-shadow: 1px 1px 0 #9fa9a3;
-}
-
-p {
-	padding-left: 4em;
-	font-size: 20px;
-}
-
-ul {
-	line-height: 2em;
-	font-size: 20px;
-	font-family: times new roman;
-	font-size: 20px;
-}
 
 /* BACK DIVS 0(SAND), 1(MINT), 2(WHITE) */
 
@@ -520,6 +515,7 @@ button {
 	font-size: 40px;
 	margin: 0px;
 	font-family: montserratBlack;
+	padding: 0px;
 }
 
 #physics:hover {
