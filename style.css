@@ -102,15 +102,6 @@ header {
 	padding-left: 1.5em;
 }
 
-@media only screen 
-  and (min-device-width: 414px) 
-  and (max-device-width: 736px) 
-  and (-webkit-min-device-pixel-ratio: 3) {
-  	#logo {
-  		display: none;
-  	}
-  }
-
 #chemistry {
 	letter-spacing: 10px;
 	color: #9fa9a3;
@@ -128,6 +119,15 @@ header {
 	letter-spacing: 1px;
 	padding-bottom: 10px;
 }
+
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) {
+  	#devname {
+  		display: none;
+  	}
+  }
 
 #devlink {
 	color: #c5d5c5;
@@ -153,6 +153,15 @@ header {
 #socmed img {
 	width: 100px;
 }
+
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) {
+  	#socmed, #socmed a, #socmed img {
+  		display: none;
+  	}
+  }
 
 /* TEXT ELEMENTS */
 
@@ -484,7 +493,10 @@ button {
 	margin-left: 14.5em;
 }
 
-@media screen and (max-width: 481px) {
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) {
 	#larrow, #rarrow, #barrow1, #barrow2 {
 		display: none;
 	}
