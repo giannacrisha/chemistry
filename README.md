@@ -12,12 +12,7 @@ iorganic chemistry<br>
 analytical chemistry<br>
 biochemistry<br>
 resources
-
-focus on:<br>
--bond lengths<br>
--abundances and masses<br>>
--faradays<br>
-
+media query
 <!-- 
 <div class="row">
 		<div class="column">
