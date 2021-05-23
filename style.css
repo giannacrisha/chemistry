@@ -255,22 +255,12 @@ th {
 	text-align: center;
 	padding-left: 0px;
 	padding-right: 0px;
+	transition: 0.5s;
 }
+
 th:hover {
-	animation-name: fade;
-	animation-duration: 30s;
-}
-
-@keyframes fade {
-	3% {
-		background-color: gray;
-		color: white;
-	}
-
-	100% {
-		background-color: gray;
-		color: white;
-	}
+	background-color: gray;
+	color: white;
 }
 
 td {
@@ -342,22 +332,24 @@ button {
 
 #lanthanidebutton {
 	background-color: #BCC8A9;
-	border: none; 
+	border: none;
+	transition: 0.5s;
 }
 
 #actinidebutton {
 	background-color: #E6F1D4;
 	border: none; 
+	transition: 0.5s;
 }
 
 #lanthanidebutton:hover {
-	animation-name: fade;
-	animation-duration: 30s;
+	background-color: gray;
+	color: white;
 }
 
 #actinidebutton:hover {
-	animation-name: fade;
-	animation-duration: 30s;
+	background-color: gray;
+	color: white;
 }
 
 #atomicmass {
@@ -502,6 +494,7 @@ button {
 	color: white;
 	font-weight: bold;
 	font-family: montserratSemiBold;
+	transition: 0.5s;
 }
 
 #gitlink:hover {
@@ -516,6 +509,7 @@ button {
 	margin: 0px;
 	font-family: montserratBlack;
 	padding: 0px;
+	transition: 0.5s;
 }
 
 #physics:hover {
